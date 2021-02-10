@@ -1,0 +1,226 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Fri Oct 25 22:17:10 2019
+| Host         : DESKTOP-JO30QMD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MarsZX3_xlconstant_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of MarsZX3_xlconstant_0_1 (xilinx.com:ip:xlconstant:1.1) from (Rev. 3) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Fri Oct 25 22:17:10 2019
+| Host         : DESKTOP-JO30QMD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MarsZX3_xlconstant_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of MarsZX3_xlconstant_0_0 (xilinx.com:ip:xlconstant:1.1) from (Rev. 3) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Fri Oct 25 22:17:10 2019
+| Host         : DESKTOP-JO30QMD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MarsZX3_xadc_wiz_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of MarsZX3_xadc_wiz_0_0 (xilinx.com:ip:xadc_wiz:3.3) from (Rev. 5) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Fri Oct 25 22:17:10 2019
+| Host         : DESKTOP-JO30QMD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MarsZX3_selectio_wiz_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of MarsZX3_selectio_wiz_0_2 (xilinx.com:ip:selectio_wiz:5.1) from (Rev. 10) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Fri Oct 25 22:17:10 2019
+| Host         : DESKTOP-JO30QMD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MarsZX3_selectio_wiz_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of MarsZX3_selectio_wiz_0_0 (xilinx.com:ip:selectio_wiz:5.1) from (Rev. 10) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Fri Oct 25 22:17:10 2019
+| Host         : DESKTOP-JO30QMD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MarsZX3_rst_processing_system7_0_50M_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of MarsZX3_rst_processing_system7_0_50M_0 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Fri Oct 25 22:17:10 2019
+| Host         : DESKTOP-JO30QMD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MarsZX3_processing_system7_0_axi_periph_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of MarsZX3_processing_system7_0_axi_periph_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 16) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Fri Oct 25 22:17:10 2019
+| Host         : DESKTOP-JO30QMD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MarsZX3_axi_vdma_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of MarsZX3_axi_vdma_0_0 (xilinx.com:ip:axi_vdma:6.3) from (Rev. 3) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Fri Oct 25 22:17:10 2019
+| Host         : DESKTOP-JO30QMD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MarsZX3_axi_mem_intercon_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of MarsZX3_axi_mem_intercon_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 16) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Fri Oct 25 22:17:10 2019
+| Host         : DESKTOP-JO30QMD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MarsZX3_axi_gpio_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of MarsZX3_axi_gpio_0_0 (xilinx.com:ip:axi_gpio:2.0) from (Rev. 17) to (Rev. 21)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Fri Oct 25 22:17:10 2019
+| Host         : DESKTOP-JO30QMD running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'MarsZX3_SS_override_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of MarsZX3_SS_override_0 (xilinx.com:ip:xlconstant:1.1) from (Rev. 3) to (Rev. 6)
+

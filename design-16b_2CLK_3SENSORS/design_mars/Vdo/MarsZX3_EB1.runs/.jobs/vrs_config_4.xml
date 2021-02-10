@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="MarsEB1_impl" LaunchDir="C:/fab/work/atise/trunk/projects/hdpyx_2019/updates_fab_1/design_mars/Vdo/MarsZX3_EB1.runs/MarsEB1_impl" FlowId="Vivado_Implementation" FromStepId="write_bitstream" ToStepId="write_bitstream"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

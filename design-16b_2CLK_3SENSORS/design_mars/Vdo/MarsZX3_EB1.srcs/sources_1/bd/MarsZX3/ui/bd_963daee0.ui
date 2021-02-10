@@ -1,0 +1,120 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 9 -x 3350 -y 660 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 9 -x 3350 -y 680 -defaultsOSRD
+preplace port IIC_0 -pg 1 -lvl 9 -x 3350 -y 700 -defaultsOSRD
+preplace port SDIO0_CDN -pg 1 -lvl 0 -x -50 -y 990 -defaultsOSRD
+preplace port FCLK_CLK1 -pg 1 -lvl 9 -x 3350 -y 20 -defaultsOSRD
+preplace port RESET_N -pg 1 -lvl 9 -x 3350 -y 1040 -defaultsOSRD
+preplace port HDPyx_SPI_CLK -pg 1 -lvl 9 -x 3350 -y 740 -defaultsOSRD
+preplace port HDPyx_SPI_MOSI -pg 1 -lvl 9 -x 3350 -y 760 -defaultsOSRD
+preplace port HDPyx_SPI_MISO -pg 1 -lvl 9 -x 3350 -y 780 -defaultsOSRD -right
+preplace port HDPyx_SPI_SS0 -pg 1 -lvl 9 -x 3350 -y 820 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 8 -x 3060 -y 850 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 6 -x 2120 -y 1130 -defaultsOSRD
+preplace inst axi_mem_intercon -pg 1 -lvl 7 -x 2640 -y 990 -defaultsOSRD
+preplace inst ps_7_0_axi_periph -pg 1 -lvl 5 -x 1590 -y 710 -defaultsOSRD
+preplace inst rst_system7_0_50M -pg 1 -lvl 1 -x 140 -y 760 -defaultsOSRD
+preplace inst SS_override -pg 1 -lvl 8 -x 3060 -y 1140 -defaultsOSRD
+preplace inst axi_vdma_0 -pg 1 -lvl 6 -x 2120 -y 180 -defaultsOSRD
+preplace inst DCMI_VDMA_Bridge_0 -pg 1 -lvl 5 -x 1590 -y 210 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 5 -x 1590 -y 950 -defaultsOSRD
+preplace inst DCMI_VDMA_Bridge_1 -pg 1 -lvl 5 -x 1590 -y 430 -defaultsOSRD
+preplace inst DCMI_VDMA_Bridge_2 -pg 1 -lvl 5 -x 1590 -y 1130 -defaultsOSRD
+preplace inst axi_vdma_1 -pg 1 -lvl 6 -x 2120 -y 520 -defaultsOSRD
+preplace inst axi_vdma_2 -pg 1 -lvl 6 -x 2120 -y 860 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 7 -x 2640 -y 1280 -defaultsOSRD
+preplace inst rst_system7_0_50M1 -pg 1 -lvl 4 -x 1180 -y 1130 -defaultsOSRD
+preplace inst HDPYX_DCMI_Bridge_0 -pg 1 -lvl 4 -x 1180 -y 230 -defaultsOSRD
+preplace inst HDPYX_DCMI_Bridge_1 -pg 1 -lvl 4 -x 1180 -y 450 -defaultsOSRD
+preplace inst HDPYX_DCMI_Bridge_2 -pg 1 -lvl 4 -x 1180 -y 650 -defaultsOSRD
+preplace inst DCMI_COUNTER_0 -pg 1 -lvl 2 -x 510 -y 270 -defaultsOSRD
+preplace inst DCMI_COUNTER_1 -pg 1 -lvl 2 -x 510 -y 490 -defaultsOSRD
+preplace inst DCMI_COUNTER_2 -pg 1 -lvl 2 -x 510 -y 690 -defaultsOSRD
+preplace inst HDPYX_Emulator_0 -pg 1 -lvl 3 -x 830 -y 250 -defaultsOSRD
+preplace inst HDPYX_Emulator_PLAIN_0 -pg 1 -lvl 3 -x 830 -y 470 -defaultsOSRD
+preplace inst HDPYX_Emulator_STRIP_0 -pg 1 -lvl 3 -x 830 -y 670 -defaultsOSRD
+preplace netloc SDIO0_CDN_1 1 0 9 NJ 990 NJ 990 NJ 990 990J 1230 NJ 1230 NJ 1230 2390J 1200 2790J 1210 3310
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 9 -30 980 NJ 980 NJ 980 1000 1020 NJ 1020 1750J 1050 2340J 1170 2800J 1200 3330
+preplace netloc processing_system7_0_SPI0_SCLK_O 1 8 1 NJ 740
+preplace netloc processing_system7_0_SPI0_MOSI_O 1 8 1 NJ 760
+preplace netloc HDPyx_SPI_MISO_1 1 8 1 NJ 780
+preplace netloc processing_system7_0_SPI0_SS_O 1 8 1 NJ 820
+preplace netloc xlconstant_0_dout 1 8 1 3320 800n
+preplace netloc rst_system7_0_50M_peripheral_reset 1 1 4 320 370 670 350 990 120 1410
+preplace netloc HDPYX_DCMI_Bridge_0_dcmi_fvalid 1 4 1 N 210
+preplace netloc HDPYX_Emulator_0_hdpyx_fvalid 1 3 1 N 220
+preplace netloc HDPYX_Emulator_0_hdpyx_lvalid 1 3 1 N 240
+preplace netloc xlconstant_0_dout1 1 5 1 1790 120n
+preplace netloc processing_system7_0_FCLK_CLK1 1 0 9 -30 660 310 360 660 360 1010 340 1420 90 1860 -30 NJ -30 NJ -30 3330
+preplace netloc processing_system7_0_FCLK_CLK0 1 3 6 1010 890 1400 890 1800 0 2390 600 2810 600 3290
+preplace netloc DCMI_VDMA_Bridge_0_vdma_last 1 5 1 1770 140n
+preplace netloc DCMI_VDMA_Bridge_0_vdma_user 1 5 1 1780 180n
+preplace netloc DCMI_VDMA_Bridge_0_vdma_valid 1 5 1 N 200
+preplace netloc DCMI_VDMA_Bridge_0_vdma_data 1 5 1 1750 100n
+preplace netloc HDPYX_Emulator_0_hdpyx_data_A 1 3 1 N 260
+preplace netloc HDPYX_Emulator_0_hdpyx_data_B 1 3 1 N 280
+preplace netloc HDPYX_DCMI_Bridge_0_dcmi_lvalid 1 4 1 N 230
+preplace netloc HDPYX_DCMI_Bridge_0_dcmi_data 1 4 1 N 250
+preplace netloc HDPYX_DCMI_Bridge_1_dcmi_fvalid 1 4 1 N 430
+preplace netloc HDPYX_DCMI_Bridge_1_dcmi_lvalid 1 4 1 N 450
+preplace netloc HDPYX_DCMI_Bridge_1_dcmi_data 1 4 1 N 470
+preplace netloc HDPYX_DCMI_Bridge_2_dcmi_fvalid 1 4 1 1360 630n
+preplace netloc HDPYX_DCMI_Bridge_2_dcmi_lvalid 1 4 1 1380 650n
+preplace netloc HDPYX_DCMI_Bridge_2_dcmi_data 1 4 1 1350 670n
+preplace netloc xlconcat_0_dout 1 7 1 2810 890n
+preplace netloc axi_vdma_0_s2mm_introut 1 6 1 2360 200n
+preplace netloc axi_vdma_1_s2mm_introut 1 6 1 2350 540n
+preplace netloc axi_vdma_2_s2mm_introut 1 6 1 2330 880n
+preplace netloc DCMI_VDMA_Bridge_1_vdma_data 1 5 1 1820 400n
+preplace netloc DCMI_VDMA_Bridge_1_vdma_valid 1 5 1 1840 420n
+preplace netloc DCMI_VDMA_Bridge_1_vdma_user 1 5 1 1810 440n
+preplace netloc DCMI_VDMA_Bridge_1_vdma_last 1 5 1 1750 460n
+preplace netloc DCMI_VDMA_Bridge_2_vdma_last 1 5 1 1890 820n
+preplace netloc DCMI_VDMA_Bridge_2_vdma_user 1 5 1 1900 860n
+preplace netloc DCMI_VDMA_Bridge_2_vdma_valid 1 5 1 1910 880n
+preplace netloc DCMI_VDMA_Bridge_2_vdma_data 1 5 1 1870 780n
+preplace netloc DCMI_COUNTER_0_DCMI_FVALID 1 2 1 N 250
+preplace netloc DCMI_COUNTER_0_DCMI_LVALID 1 2 1 N 270
+preplace netloc DCMI_COUNTER_0_DCMI_CNT 1 2 1 N 290
+preplace netloc axi_gpio_0_gpio_io_o 1 1 6 330 -10 NJ -10 NJ -10 NJ -10 NJ -10 2320
+preplace netloc axi_vdma_0_s_axis_s2mm_tready 1 1 5 360 100 NJ 100 NJ 100 NJ 100 1740J
+preplace netloc axi_vdma_1_s_axis_s2mm_tready 1 1 5 340 80 NJ 80 NJ 80 NJ 80 1890J
+preplace netloc axi_vdma_2_s_axis_s2mm_tready 1 1 5 350 110 NJ 110 NJ 110 NJ 110 1850
+preplace netloc rst_system7_0_50M1_peripheral_aresetn 1 4 2 1390 530 1880
+preplace netloc rst_system7_0_50M1_interconnect_aresetn 1 4 3 1370J 1030 1740J 1040 2400
+preplace netloc DCMI_COUNTER_1_DCMI_FVALID 1 2 1 N 470
+preplace netloc DCMI_COUNTER_1_DCMI_LVALID 1 2 1 N 490
+preplace netloc DCMI_COUNTER_1_DCMI_CNT 1 2 1 N 510
+preplace netloc HDPYX_Emulator_PLAIN_0_hdpyx_fvalid 1 3 1 N 440
+preplace netloc HDPYX_Emulator_PLAIN_0_hdpyx_lvalid 1 3 1 N 460
+preplace netloc HDPYX_Emulator_PLAIN_0_hdpyx_data_A 1 3 1 N 480
+preplace netloc HDPYX_Emulator_PLAIN_0_hdpyx_data_B 1 3 1 N 500
+preplace netloc DCMI_COUNTER_2_DCMI_FVALID 1 2 1 N 670
+preplace netloc DCMI_COUNTER_2_DCMI_LVALID 1 2 1 N 690
+preplace netloc DCMI_COUNTER_2_DCMI_CNT 1 2 1 N 710
+preplace netloc HDPYX_Emulator_STRIP_0_hdpyx_fvalid 1 3 1 N 640
+preplace netloc HDPYX_Emulator_STRIP_0_hdpyx_lvalid 1 3 1 N 660
+preplace netloc HDPYX_Emulator_STRIP_0_hdpyx_data_A 1 3 1 N 680
+preplace netloc HDPYX_Emulator_STRIP_0_hdpyx_data_B 1 3 1 N 700
+preplace netloc ps_7_0_axi_periph_M02_AXI 1 5 1 1770 720n
+preplace netloc S00_AXI_2 1 4 5 1430 -20 NJ -20 NJ -20 NJ -20 3300
+preplace netloc processing_system7_0_FIXED_IO 1 8 1 NJ 680
+preplace netloc processing_system7_0_IIC_0 1 8 1 NJ 700
+preplace netloc axi_mem_intercon_M00_AXI 1 7 1 2790 830n
+preplace netloc processing_system7_0_DDR 1 8 1 NJ 660
+preplace netloc axi_vdma_2_M_AXI_S2MM 1 6 1 2370 840n
+preplace netloc ps_7_0_axi_periph_M00_AXI 1 5 1 1760 60n
+preplace netloc axi_vdma_1_M_AXI_S2MM 1 6 1 2380 500n
+preplace netloc ps_7_0_axi_periph_M01_AXI 1 5 1 1830 400n
+preplace netloc S00_AXI_1 1 6 1 2400 160n
+preplace netloc ps_7_0_axi_periph_M03_AXI 1 5 1 1760 740n
+levelinfo -pg 1 -50 140 510 830 1180 1590 2120 2640 3060 3350
+pagesize -pg 1 -db -bbox -sgen -190 -60 3520 1950
+"
+}
+{
+   "da_axi4_cnt":"4"
+}

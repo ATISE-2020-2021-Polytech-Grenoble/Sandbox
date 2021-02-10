@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="MarsEB1_synth" LaunchDir="C:/FMa/ATISE/Development/Clean_ENV/design-16b_2CLK_1SENSOR_modif/design_mars/Vdo/MarsZX3_EB1.runs/MarsEB1_synth" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="MarsZX3_HDPyx_TPG_0_0_synth_1" LaunchDir="C:/fab/work/atise/trunk/projects/hdpyx_2019/updates_fab_1/design_mars/Vdo/MarsZX3_EB1.runs/MarsZX3_HDPyx_TPG_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MarsZX3_HDPyx_TPG_1_0_synth_1" LaunchDir="C:/fab/work/atise/trunk/projects/hdpyx_2019/updates_fab_1/design_mars/Vdo/MarsZX3_EB1.runs/MarsZX3_HDPyx_TPG_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MarsZX3_axi_gpio_0_0_synth_1" LaunchDir="C:/fab/work/atise/trunk/projects/hdpyx_2019/updates_fab_1/design_mars/Vdo/MarsZX3_EB1.runs/MarsZX3_axi_gpio_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MarsZX3_processing_system7_0_0_synth_1" LaunchDir="C:/fab/work/atise/trunk/projects/hdpyx_2019/updates_fab_1/design_mars/Vdo/MarsZX3_EB1.runs/MarsZX3_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MarsZX3_rst_processing_system7_0_50M_0_synth_1" LaunchDir="C:/fab/work/atise/trunk/projects/hdpyx_2019/updates_fab_1/design_mars/Vdo/MarsZX3_EB1.runs/MarsZX3_rst_processing_system7_0_50M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MarsZX3_xadc_wiz_0_0_synth_1" LaunchDir="C:/fab/work/atise/trunk/projects/hdpyx_2019/updates_fab_1/design_mars/Vdo/MarsZX3_EB1.runs/MarsZX3_xadc_wiz_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MarsZX3_selectio_wiz_0_0_synth_1" LaunchDir="C:/fab/work/atise/trunk/projects/hdpyx_2019/updates_fab_1/design_mars/Vdo/MarsZX3_EB1.runs/MarsZX3_selectio_wiz_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MarsZX3_selectio_wiz_0_2_synth_1" LaunchDir="C:/fab/work/atise/trunk/projects/hdpyx_2019/updates_fab_1/design_mars/Vdo/MarsZX3_EB1.runs/MarsZX3_selectio_wiz_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MarsZX3_axi_vdma_0_0_synth_1" LaunchDir="C:/fab/work/atise/trunk/projects/hdpyx_2019/updates_fab_1/design_mars/Vdo/MarsZX3_EB1.runs/MarsZX3_axi_vdma_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MarsZX3_xbar_0_synth_1" LaunchDir="C:/fab/work/atise/trunk/projects/hdpyx_2019/updates_fab_1/design_mars/Vdo/MarsZX3_EB1.runs/MarsZX3_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MarsZX3_auto_pc_0_synth_1" LaunchDir="C:/fab/work/atise/trunk/projects/hdpyx_2019/updates_fab_1/design_mars/Vdo/MarsZX3_EB1.runs/MarsZX3_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MarsZX3_auto_pc_1_synth_1" LaunchDir="C:/fab/work/atise/trunk/projects/hdpyx_2019/updates_fab_1/design_mars/Vdo/MarsZX3_EB1.runs/MarsZX3_auto_pc_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

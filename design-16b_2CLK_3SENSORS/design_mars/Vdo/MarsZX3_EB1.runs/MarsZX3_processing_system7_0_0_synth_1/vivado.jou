@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Nov 17 22:32:27 2020
+# Process ID: 12688
+# Current directory: C:/FMa/ATISE/Development/design-16b_2CLK_3SENSORS_modif/design_mars/Vdo/MarsZX3_EB1.runs/MarsZX3_processing_system7_0_0_synth_1
+# Command line: vivado.exe -log MarsZX3_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MarsZX3_processing_system7_0_0.tcl
+# Log file: C:/FMa/ATISE/Development/design-16b_2CLK_3SENSORS_modif/design_mars/Vdo/MarsZX3_EB1.runs/MarsZX3_processing_system7_0_0_synth_1/MarsZX3_processing_system7_0_0.vds
+# Journal file: C:/FMa/ATISE/Development/design-16b_2CLK_3SENSORS_modif/design_mars/Vdo/MarsZX3_EB1.runs/MarsZX3_processing_system7_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source MarsZX3_processing_system7_0_0.tcl -notrace

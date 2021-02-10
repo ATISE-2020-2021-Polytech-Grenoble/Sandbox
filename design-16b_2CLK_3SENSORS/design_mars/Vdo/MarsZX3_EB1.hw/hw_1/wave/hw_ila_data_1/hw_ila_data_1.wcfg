@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/FMa/ATISE/Development/Clean_ENV/design-16b_2CLK_1SENSOR_modif/design_mars/Vdo/MarsZX3_EB1.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="500300fs"></ZoomStartTime>
+      <ZoomEndTime time="531051fs"></ZoomEndTime>
+      <Cursor1Time time="521000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="344"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="i_system/HDPYX_Emulator_0_hdpyx_data_A" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system/HDPYX_Emulator_0_hdpyx_data_A[6:0]</obj_property>
+      <obj_property name="ObjectShortName">HDPYX_Emulator_0_hdpyx_data_A[6:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="i_system/HDPYX_Emulator_0_hdpyx_data_B" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system/HDPYX_Emulator_0_hdpyx_data_B[6:0]</obj_property>
+      <obj_property name="ObjectShortName">HDPYX_Emulator_0_hdpyx_data_B[6:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="i_system/HDPYX_Emulator_0_hdpyx_fvalid" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system/HDPYX_Emulator_0_hdpyx_fvalid</obj_property>
+      <obj_property name="ObjectShortName">HDPYX_Emulator_0_hdpyx_fvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="i_system/HDPYX_Emulator_0_hdpyx_lvalid" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system/HDPYX_Emulator_0_hdpyx_lvalid</obj_property>
+      <obj_property name="ObjectShortName">HDPYX_Emulator_0_hdpyx_lvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="i_system/HDPYX_DCMI_Bridge_0_state_fsm" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system/HDPYX_DCMI_Bridge_0_state_fsm[3:0]</obj_property>
+      <obj_property name="ObjectShortName">HDPYX_DCMI_Bridge_0_state_fsm[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="i_system/HDPYX_DCMI_Bridge_0_data_A_ILA" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system/HDPYX_DCMI_Bridge_0_data_A_ILA[13:0]</obj_property>
+      <obj_property name="ObjectShortName">HDPYX_DCMI_Bridge_0_data_A_ILA[13:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="i_system/HDPYX_DCMI_Bridge_0_data_B_ILA" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system/HDPYX_DCMI_Bridge_0_data_B_ILA[13:0]</obj_property>
+      <obj_property name="ObjectShortName">HDPYX_DCMI_Bridge_0_data_B_ILA[13:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="i_system/HDPYX_DCMI_Bridge_0_data_B_r_ILA" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system/HDPYX_DCMI_Bridge_0_data_B_r_ILA[13:0]</obj_property>
+      <obj_property name="ObjectShortName">HDPYX_DCMI_Bridge_0_data_B_r_ILA[13:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="i_system/HDPYX_DCMI_Bridge_0_dcmi_data" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system/HDPYX_DCMI_Bridge_0_dcmi_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">HDPYX_DCMI_Bridge_0_dcmi_data[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="i_system/HDPYX_DCMI_Bridge_0_dcmi_fvalid" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system/HDPYX_DCMI_Bridge_0_dcmi_fvalid</obj_property>
+      <obj_property name="ObjectShortName">HDPYX_DCMI_Bridge_0_dcmi_fvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="i_system/HDPYX_DCMI_Bridge_0_dcmi_lvalid" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system/HDPYX_DCMI_Bridge_0_dcmi_lvalid</obj_property>
+      <obj_property name="ObjectShortName">HDPYX_DCMI_Bridge_0_dcmi_lvalid</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>
