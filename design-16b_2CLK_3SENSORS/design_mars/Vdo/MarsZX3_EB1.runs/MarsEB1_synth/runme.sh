@@ -6,14 +6,10 @@
 # Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 # 
 
-echo "This script was generated under a different operating system."
-echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executing this script"
-exit
-
 if [ -z "$PATH" ]; then
-  PATH=C:/Xilinx/SDK/2019.1/bin;C:/Xilinx/Vivado/2019.1/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2019.1/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2019.1/bin
+  PATH=/home/killian/Xilinx/SDK/2019.1/bin:/home/killian/Xilinx/Vivado/2019.1/ids_lite/ISE/bin/lin64:/home/killian/Xilinx/Vivado/2019.1/bin
 else
-  PATH=C:/Xilinx/SDK/2019.1/bin;C:/Xilinx/Vivado/2019.1/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2019.1/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2019.1/bin:$PATH
+  PATH=/home/killian/Xilinx/SDK/2019.1/bin:/home/killian/Xilinx/Vivado/2019.1/ids_lite/ISE/bin/lin64:/home/killian/Xilinx/Vivado/2019.1/bin:$PATH
 fi
 export PATH
 
@@ -24,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/FMa/ATISE/Development/design-16b_2CLK_3SENSORS_modif/design_mars/Vdo/MarsZX3_EB1.runs/MarsEB1_synth'
+HD_PWD='/home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.runs/MarsEB1_synth'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

@@ -1,0 +1,2028 @@
+!SESSION 2021-03-01 09:39:10.988 -----------------------------------------------
+eclipse.buildId=2019.1
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk
+
+This is a continuation of log file /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/.metadata/.bak_0.log
+Created Time: 2021-03-01 09:56:18.366
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:18.366
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:18.367
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:18.449
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:18.451
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:18.743
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_0/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:18.758
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_0/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:18.759
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_0/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:18.760
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.3",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:18.761
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_0/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:18.762
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_0/system.mss], Result: [null, xilffs]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:18.762
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_0/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:18.763
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_0/system.mss], Result: [null, {"xilffs": "4.1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:18.781
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_0/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:18.789
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_0/system.mss], Result: [null, {"axi_gpio_0": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_vdma_0": {"name": "axivdma",
+"ver": "6.6",
+},
+"axi_vdma_1": {"name": "axivdma",
+"ver": "6.6",
+},
+"axi_vdma_2": {"name": "axivdma",
+"ver": "6.6",
+},
+"ps7_afi_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_afi_1": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_afi_2": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_afi_3": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_coresight_comp_0": {"name": "coresightps_dcc",
+"ver": "1.5",
+},
+"ps7_ddr_0": {"name": "ddrps",
+"ver": "1.0",
+},
+"ps7_ddrc_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_dev_cfg_0": {"name": "devcfg",
+"ver": "3.5",
+},
+"ps7_dma_ns": {"name": "dmaps",
+"ver": "2.4",
+},
+"ps7_dma_s": {"name": "dmaps",
+"ver": "2.4",
+},
+"ps7_ethernet_0": {"name": "emacps",
+"ver": "3.9",
+},
+"ps7_globaltimer_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_gpio_0": {"name": "gpiops",
+"ver": "3.5",
+},
+"ps7_gpv_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_i2c_0": {"name": "iicps",
+"ver": "3.9",
+},
+"ps7_intc_dist_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_iop_bus_config_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_l2cachec_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ocmc_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_pl310_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_pmu_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_qspi_0": {"name": "qspips",
+"ver": "3.6",
+},
+"ps7_qspi_linear_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ram_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ram_1": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_scuc_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_scugic_0": {"name": "scugic",
+"ver": "4.0",
+},
+"ps7_scutimer_0": {"name": "scutimer",
+"ver": "2.1",
+},
+"ps7_scuwdt_0": {"name": "scuwdt",
+"ver": "2.1",
+},
+"ps7_sd_0": {"name": "sdps",
+"ver": "3.7",
+},
+"ps7_slcr_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_spi_0": {"name": "spips",
+"ver": "3.2",
+},
+"ps7_ttc_0": {"name": "ttcps",
+"ver": "3.9",
+},
+"ps7_uart_0": {"name": "uartps",
+"ver": "3.7",
+},
+"ps7_usb_0": {"name": "usbps",
+"ver": "2.4",
+},
+"ps7_wdt_0": {"name": "wdtps",
+"ver": "3.1",
+},
+"ps7_xadc_0": {"name": "xadcps",
+"ver": "2.3",
+},
+"ps7_cortexa9_0": {"name": "cpu_cortexa9",
+"ver": "2.7",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:18.790
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_0/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:18.791
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_0/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:18.951
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:18.953
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:18.954
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:18.955
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.3",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:18.970
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:18.972
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:18.997
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:18.998
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:19.028
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_0/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:19.030
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_0/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:19.031
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_0/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:19.032
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.3",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:19.033
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_0/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:19.034
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_0/system.mss], Result: [null, xilffs]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:19.035
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_0/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:19.036
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_0/system.mss], Result: [null, {"xilffs": "4.1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:19.037
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_0/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:19.041
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_0/system.mss], Result: [null, {"axi_gpio_0": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_vdma_0": {"name": "axivdma",
+"ver": "6.6",
+},
+"axi_vdma_1": {"name": "axivdma",
+"ver": "6.6",
+},
+"axi_vdma_2": {"name": "axivdma",
+"ver": "6.6",
+},
+"ps7_afi_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_afi_1": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_afi_2": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_afi_3": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_coresight_comp_0": {"name": "coresightps_dcc",
+"ver": "1.5",
+},
+"ps7_ddr_0": {"name": "ddrps",
+"ver": "1.0",
+},
+"ps7_ddrc_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_dev_cfg_0": {"name": "devcfg",
+"ver": "3.5",
+},
+"ps7_dma_ns": {"name": "dmaps",
+"ver": "2.4",
+},
+"ps7_dma_s": {"name": "dmaps",
+"ver": "2.4",
+},
+"ps7_ethernet_0": {"name": "emacps",
+"ver": "3.9",
+},
+"ps7_globaltimer_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_gpio_0": {"name": "gpiops",
+"ver": "3.5",
+},
+"ps7_gpv_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_i2c_0": {"name": "iicps",
+"ver": "3.9",
+},
+"ps7_intc_dist_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_iop_bus_config_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_l2cachec_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ocmc_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_pl310_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_pmu_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_qspi_0": {"name": "qspips",
+"ver": "3.6",
+},
+"ps7_qspi_linear_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ram_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ram_1": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_scuc_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_scugic_0": {"name": "scugic",
+"ver": "4.0",
+},
+"ps7_scutimer_0": {"name": "scutimer",
+"ver": "2.1",
+},
+"ps7_scuwdt_0": {"name": "scuwdt",
+"ver": "2.1",
+},
+"ps7_sd_0": {"name": "sdps",
+"ver": "3.7",
+},
+"ps7_slcr_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_spi_0": {"name": "spips",
+"ver": "3.2",
+},
+"ps7_ttc_0": {"name": "ttcps",
+"ver": "3.9",
+},
+"ps7_uart_0": {"name": "uartps",
+"ver": "3.7",
+},
+"ps7_usb_0": {"name": "usbps",
+"ver": "2.4",
+},
+"ps7_wdt_0": {"name": "wdtps",
+"ver": "3.1",
+},
+"ps7_xadc_0": {"name": "xadcps",
+"ver": "2.3",
+},
+"ps7_cortexa9_0": {"name": "cpu_cortexa9",
+"ver": "2.7",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:19.043
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_0/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:19.044
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_0/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:19.066
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:19.070
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:19.070
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:19.072
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.3",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:19.121
+!MESSAGE XSCT Command: [::hsi::utils::get_config_params_for_sw -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:19.148
+!MESSAGE XSCT command with result: [::hsi::utils::get_config_params_for_sw -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Result: [null, {"ps7_cortexa9_0": {"archiver": {"category": "",
+"value": "arm-none-eabi-ar",
+"default": "arm-none-eabi-ar",
+"type": "string",
+"desc": "Archiver used to archive libraries for both BSP generation as well as for applications",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler": {"category": "",
+"value": "arm-none-eabi-gcc",
+"default": "arm-none-eabi-gcc",
+"type": "string",
+"desc": "Compiler used to compile both BSP/Libraries and Applications.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler_flags": {"category": "",
+"value": "-O2 -c",
+"default": "-O2 -c",
+"type": "string",
+"desc": "Compiler flags used in BSP and library generation. '-c' flag stands for 'compile and assemble, but do not link'. Without this flag, gcc tries to link the code, which will fail bacause there is no application involved during libgen. '-O2' can be overwritten by extra compiler flags",
+"permit": "none",
+"options": {},
+"range": "",
+},
+"extra_compiler_flags": {"category": "",
+"value": "-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra",
+"default": "-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra",
+"type": "string",
+"desc": "Extra compiler flags used in BSP and library generation.",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+"freertos10_xilinx": {"PSU_TTC0_Select": {"category": "tick_setup",
+"value": "true",
+"default": "true",
+"type": "bool",
+"desc": "psu_cortexr5 only: Set it to true to use TTC0 for tick interrupt generation",
+"permit": "",
+"options": {},
+"range": "",
+},
+"PSU_TTC0_Select_Cntr": {"category": "tick_setup",
+"value": "0",
+"default": "0",
+"type": "int",
+"desc": "psu_cortexr5 only: Selects the TTC0 counter to be used for tick generation. Allowed range is 0-2",
+"permit": "",
+"options": {},
+"range": "",
+},
+"PSU_TTC1_Select": {"category": "tick_setup",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "psu_cortexr5 only: Set it to true to use TTC1 for tick interrupt generation",
+"permit": "",
+"options": {},
+"range": "",
+},
+"PSU_TTC1_Select_Cntr": {"category": "tick_setup",
+"value": "0",
+"default": "0",
+"type": "int",
+"desc": "psu_cortexr5 only: Selects the TTC1 counter to be used for tick generation. Allowed range is 0-2",
+"permit": "",
+"options": {},
+"range": "",
+},
+"PSU_TTC2_Select": {"category": "tick_setup",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "psu_cortexr5 only: Set it to true to use TTC2 for tick interrupt generation",
+"permit": "",
+"options": {},
+"range": "",
+},
+"PSU_TTC2_Select_Cntr": {"category": "tick_setup",
+"value": "0",
+"default": "0",
+"type": "int",
+"desc": "psu_cortexr5 only: Selects the TTC2 counter to be used for tick generation. Allowed range is 0-2",
+"permit": "",
+"options": {},
+"range": "",
+},
+"PSU_TTC3_Select": {"category": "tick_setup",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "psu_cortexr5 only: Set it to true to use TTC3 for tick interrupt generation",
+"permit": "",
+"options": {},
+"range": "",
+},
+"PSU_TTC3_Select_Cntr": {"category": "tick_setup",
+"value": "0",
+"default": "0",
+"type": "int",
+"desc": "psu_cortexr5 only: Selects the TTC3 counter to be used for tick generation. Allowed range is 0-2",
+"permit": "",
+"options": {},
+"range": "",
+},
+"SYSINTC_SPEC": {"category": "",
+"value": "*",
+"default": "",
+"type": "",
+"desc": "",
+"permit": "",
+"options": {},
+"range": "",
+},
+"SYSTMR_DEV": {"category": "",
+"value": "*",
+"default": "",
+"type": "",
+"desc": "",
+"permit": "",
+"options": {},
+"range": "",
+},
+"SYSTMR_SPEC": {"category": "",
+"value": "true",
+"default": "",
+"type": "",
+"desc": "",
+"permit": "",
+"options": {},
+"range": "",
+},
+"check_for_stack_overflow": {"category": "kernel_features",
+"value": "2",
+"default": "2",
+"type": "int",
+"desc": "Set to 0 for no overflow checking.  Set to 1 to include basic run time task stack checking.  Set to 2 to include more comprehensive run time task stack checking.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"enable_stm_event_trace": {"category": "enable_stm_event_trace",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable event tracing through System Trace Macrocell avaialable on Zynq MPSoC. This is supported only for Cortex A53 and R5 processors",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"enable_timer_tick_trace": {"category": "enable_stm_event_trace",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable tracing of timer tick events",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"generate_runtime_stats": {"category": "kernel_features",
+"value": "0",
+"default": "0",
+"type": "int",
+"desc": "Set to 1 generate runtime stats for tasks.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"hook_functions": {"category": "hook_functions",
+"value": "true",
+"default": "true",
+"type": "bool",
+"desc": "Include or exclude application defined hook (callback) functions.  Callback functions must be defined by the application that is using FreeRTOS",
+"permit": "none",
+"options": {},
+"range": "",
+},
+"idle_yield": {"category": "kernel_behavior",
+"value": "true",
+"default": "true",
+"type": "bool",
+"desc": "Set to true if the Idle task should yield if another idle priority task is able to run, or false if the idle task should always use its entire time slice unless it is preempted.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"kernel_behavior": {"category": "kernel_behavior",
+"value": "true",
+"default": "true",
+"type": "bool",
+"desc": "Parameters relating to the kernel behavior",
+"permit": "none",
+"options": {},
+"range": "",
+},
+"kernel_features": {"category": "kernel_features",
+"value": "true",
+"default": "true",
+"type": "bool",
+"desc": "Include or exclude kernel features",
+"permit": "none",
+"options": {},
+"range": "",
+},
+"max_api_call_interrupt_priority": {"category": "kernel_behavior",
+"value": "18",
+"default": "18",
+"type": "int",
+"desc": "The maximum interrupt priority from which interrupt safe FreeRTOS API calls can be made.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"max_priorities": {"category": "kernel_behavior",
+"value": "8",
+"default": "8",
+"type": "int",
+"desc": "The number of task priorities that will be available.  Priorities can be assigned from zero to (max_priorities - 1)",
+"permit": "",
+"options": {},
+"range": "",
+},
+"max_task_name_len": {"category": "kernel_behavior",
+"value": "10",
+"default": "10",
+"type": "int",
+"desc": "The maximum number of characters that can be in the name of a task.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"message_buffer": {"category": "kernel_features",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Set to true to include message buffer functionality, or false to exclude message buffer functionality.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"minimal_stack_size": {"category": "kernel_behavior",
+"value": "200",
+"default": "200",
+"type": "int",
+"desc": "The size of the stack allocated to the Idle task. Also used by standard demo and test tasks found in the main FreeRTOS download.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"num_thread_local_storage_pointers": {"category": "kernel_features",
+"value": "0",
+"default": "0",
+"type": "int",
+"desc": "Sets the number of pointers each task has to store thread local values.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"queue_registry_size": {"category": "kernel_features",
+"value": "10",
+"default": "10",
+"type": "int",
+"desc": "The maximum number of queues that can be registered at any one time. Only registered queues can be viewed in the Eclipse/GDB kernel aware debugger plug-in.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"software_timers": {"category": "software_timers",
+"value": "true",
+"default": "true",
+"type": "bool",
+"desc": "Options relating to the software timers functionality",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"stdin": {"category": "",
+"value": "ps7_uart_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdin peripheral",
+"permit": "",
+"options": {},
+"range": "ps7_coresight_comp_0 ps7_uart_0",
+},
+"stdout": {"category": "",
+"value": "ps7_uart_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdout peripheral",
+"permit": "",
+"options": {},
+"range": "ps7_coresight_comp_0 ps7_uart_0",
+},
+"stm_channel": {"category": "enable_stm_event_trace",
+"value": "0",
+"default": "0",
+"type": "int",
+"desc": "STM channel to use for trace. Valid channels are 0-65535",
+"permit": "",
+"options": {},
+"range": "",
+},
+"stream_buffer": {"category": "kernel_features",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Set to true to include stream buffer functionality, or false to exclude stream buffer functionality.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"support_static_allocation": {"category": "kernel_features",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Set to true to allocate memory statically, or false to allocate memory dynamically.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"tick_rate": {"category": "kernel_behavior",
+"value": "100",
+"default": "100",
+"type": "int",
+"desc": "Number of RTOS ticks per sec",
+"permit": "",
+"options": {},
+"range": "",
+},
+"tick_setup": {"category": "tick_setup",
+"value": "true",
+"default": "true",
+"type": "bool",
+"desc": "Configuration for enabling tick timer",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"timer_command_queue_length": {"category": "software_timers",
+"value": "10",
+"default": "10",
+"type": "int",
+"desc": "The number of commands the timer command queue can hold at any one time.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"timer_task_priority": {"category": "software_timers",
+"value": "(configMAX_PRIORITIES - 1)",
+"default": "(configMAX_PRIORITIES - 1)",
+"type": "string",
+"desc": "The priority at which the software timer service/daemon task will execute.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"timer_task_stack_depth": {"category": "software_timers",
+"value": "(configMINIMAL_STACK_SIZE)",
+"default": "(configMINIMAL_STACK_SIZE)",
+"type": "string",
+"desc": "The size of the stack allocated to the timer service/daemon task.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"total_heap_size": {"category": "kernel_behavior",
+"value": "65536",
+"default": "65536",
+"type": "int",
+"desc": "Sets the amount of RAM reserved for use by FreeRTOS - used when tasks, queues, semaphores and event groups are created.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"use_counting_semaphores": {"category": "kernel_features",
+"value": "true",
+"default": "true",
+"type": "bool",
+"desc": "Set to true to include counting semaphore functionality, or false to exclude recursive mutex functionality.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"use_daemon_task_startup_hook": {"category": "hook_functions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Set true for kernel to call vApplicationDaemonTaskStartupHook on first iteration of RTOS daemon task. The application must provide an implementation of vApplicationDaemonTaskStartupHook().",
+"permit": "",
+"options": {},
+"range": "",
+},
+"use_freertos_asserts": {"category": "kernel_features",
+"value": "true",
+"default": "true",
+"type": "bool",
+"desc": "Defines configASSERT() to assist development and debugging.  The application can override the default implementation of vApplicationAssert( char *pcFile, uint32_t ulLine )",
+"permit": "",
+"options": {},
+"range": "",
+},
+"use_getmutex_holder": {"category": "kernel_features",
+"value": "true",
+"default": "true",
+"type": "bool",
+"desc": "Set to true to use mutex xSemaphoreGetMutexHolder API, or false to exclude it.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"use_idle_hook": {"category": "hook_functions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Set to true for the kernel to call vApplicationIdleHook() on each iteration of the idle task.  The application must provide an implementation of vApplicationIdleHook().",
+"permit": "",
+"options": {},
+"range": "",
+},
+"use_malloc_failed_hook": {"category": "hook_functions",
+"value": "true",
+"default": "true",
+"type": "bool",
+"desc": "Only used if a FreeRTOS memory manager (heap_n.c) is included in the project.  Set to true for the kernel to call vApplicationMallocFailedHookHook() if there is insufficient FreeRTOS heap available for a task, queue or semaphore to be created.  The application can override the default implementation of vApplicationMallocFailedHook().",
+"permit": "",
+"options": {},
+"range": "",
+},
+"use_mutexes": {"category": "kernel_features",
+"value": "true",
+"default": "true",
+"type": "bool",
+"desc": "Set to true to include mutex functionality, or false to exclude mutex functionality.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"use_newlib_reent": {"category": "kernel_features",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "When true each task will have its own Newlib reent structure.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"use_port_optimized_task_selection": {"category": "kernel_behavior",
+"value": "true",
+"default": "true",
+"type": "bool",
+"desc": "When true task selection will be faster at the cost of limiting the maximum number of unique priorities to 32.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"use_preemption": {"category": "kernel_behavior",
+"value": "true",
+"default": "true",
+"type": "bool",
+"desc": "Set to true to use the preemptive scheduler, or false to use the cooperative scheduler.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"use_queue_sets": {"category": "kernel_features",
+"value": "true",
+"default": "true",
+"type": "bool",
+"desc": "Set to true to include queue set functionality.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"use_recursive_mutexes": {"category": "kernel_features",
+"value": "true",
+"default": "true",
+"type": "bool",
+"desc": "Set to true to include recursive mutex functionality, or false to exclude recursive mutex functionality.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"use_stats_formatting_functions": {"category": "kernel_features",
+"value": "true",
+"default": "true",
+"type": "bool",
+"desc": "Set to 1 to include the vTaskList() and vTaskGetRunTimeStats() functions, which format run-time data into human readable text.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"use_task_fpu_support": {"category": "kernel_features",
+"value": "1",
+"default": "1",
+"type": "int",
+"desc": "Set to 1 to create tasks without FPU context, set to 2 to have tasks with FPU context by default.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"use_task_notifications": {"category": "kernel_features",
+"value": "true",
+"default": "true",
+"type": "bool",
+"desc": "Set to true to include direct to task notification functionality.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"use_tick_hook": {"category": "hook_functions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Set to true for the kernel to call vApplicationTickHook() during each tick interrupt.  The application must provide an implementation of vApplicationTickHook().",
+"permit": "",
+"options": {},
+"range": "",
+},
+"use_timers": {"category": "software_timers",
+"value": "true",
+"default": "true",
+"type": "bool",
+"desc": "Set to true to include software timer functionality, or false to exclude software timer functionality",
+"permit": "",
+"options": {},
+"range": "",
+},
+"use_timeslicing": {"category": "kernel_behavior",
+"value": "true",
+"default": "true",
+"type": "bool",
+"desc": "When true equal priority ready tasks will share CPU time with a context switch on each tick interrupt.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"use_trace_facility": {"category": "kernel_features",
+"value": "true",
+"default": "true",
+"type": "bool",
+"desc": "Set to true to include the legacy trace functionality, and a few other features.  traceMACROS are the preferred method of tracing now.",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:19.300
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:19.301
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:19.301
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:19.302
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Result: [null, {}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:19.341
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:19.346
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Result: [null, {"axi_gpio_0": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_vdma_0": {"name": "axivdma",
+"ver": "6.6",
+},
+"axi_vdma_1": {"name": "axivdma",
+"ver": "6.6",
+},
+"axi_vdma_2": {"name": "axivdma",
+"ver": "6.6",
+},
+"ps7_afi_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_afi_1": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_afi_2": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_afi_3": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_coresight_comp_0": {"name": "coresightps_dcc",
+"ver": "1.5",
+},
+"ps7_ddr_0": {"name": "ddrps",
+"ver": "1.0",
+},
+"ps7_ddrc_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_dev_cfg_0": {"name": "devcfg",
+"ver": "3.5",
+},
+"ps7_dma_ns": {"name": "dmaps",
+"ver": "2.4",
+},
+"ps7_dma_s": {"name": "dmaps",
+"ver": "2.4",
+},
+"ps7_ethernet_0": {"name": "emacps",
+"ver": "3.9",
+},
+"ps7_globaltimer_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_gpio_0": {"name": "gpiops",
+"ver": "3.5",
+},
+"ps7_gpv_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_i2c_0": {"name": "iicps",
+"ver": "3.9",
+},
+"ps7_intc_dist_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_iop_bus_config_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_l2cachec_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ocmc_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_pl310_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_pmu_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_qspi_0": {"name": "qspips",
+"ver": "3.6",
+},
+"ps7_qspi_linear_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ram_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_ram_1": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_scuc_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_scugic_0": {"name": "scugic",
+"ver": "4.0",
+},
+"ps7_scutimer_0": {"name": "scutimer",
+"ver": "2.1",
+},
+"ps7_scuwdt_0": {"name": "scuwdt",
+"ver": "2.1",
+},
+"ps7_sd_0": {"name": "sdps",
+"ver": "3.7",
+},
+"ps7_slcr_0": {"name": "generic",
+"ver": "2.0",
+},
+"ps7_spi_0": {"name": "spips",
+"ver": "3.2",
+},
+"ps7_ttc_0": {"name": "ttcps",
+"ver": "3.9",
+},
+"ps7_uart_0": {"name": "uartps",
+"ver": "3.7",
+},
+"ps7_usb_0": {"name": "usbps",
+"ver": "2.4",
+},
+"ps7_wdt_0": {"name": "wdtps",
+"ver": "3.1",
+},
+"ps7_xadc_0": {"name": "xadcps",
+"ver": "2.3",
+},
+"ps7_cortexa9_0": {"name": "cpu_cortexa9",
+"ver": "2.7",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:27.917
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:27.918
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:27.938
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:27.941
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss ], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:27.942
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:27.945
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.3",
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:27.946
+!MESSAGE XSCT Command: [::hsi::utils::generate_bsp_sources /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:34.575
+!MESSAGE XSCT command with result: [::hsi::utils::generate_bsp_sources /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:34.591
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:34.593
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:34.593
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:34.597
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.3",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:34.615
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:34.616
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:34.649
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:34.650
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:36.143
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:36.824
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:36.832
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:36.867
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:36.874
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:36.890
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:36.899
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:36.913
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:36.923
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:36.933
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:36.940
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:36.950
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:36.954
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:36.962
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:36.965
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:36.971
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:36.974
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:36.982
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:36.985
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:36.990
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:36.993
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:36.999
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.002
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.005
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.009
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.013
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.015
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.021
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.023
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.028
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.031
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.035
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.038
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.046
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.049
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.055
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.057
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.062
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.065
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.066
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.088
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.090
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.097
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.101
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.104
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.107
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.111
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.113
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.116
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.193
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.209
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.211
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:37.212
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:39.535
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:39.538
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:39.539
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:40.197
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:40.203
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:40.205
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:40.207
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:40.209
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:40.211
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:40.815
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:40.817
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:40.819
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:41.756
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:41.758
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:41.760
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:42.072
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:42.075
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:42.076
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:42.919
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:42.921
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:42.922
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:43.919
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:43.921
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:43.922
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:44.660
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:44.663
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:44.663
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:45.440
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:45.442
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:45.444
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:46.432
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:46.436
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:46.437
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:46.920
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:46.922
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:46.923
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:47.775
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:47.777
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:47.778
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:47.973
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:47.977
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:47.978
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:48.358
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:48.360
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:48.361
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:49.070
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:49.072
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:49.073
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:49.936
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:49.938
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:49.944
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:52.364
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:54.445
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:54.478
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:54.479
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:54.482
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:54.749
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:54.751
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:54.752
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:54.960
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:54.962
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:54.964
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:55.073
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.cdt.core 4 0 2021-03-01 09:56:55.083
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.closeConsoleOutputStream(ConsoleOutputSniffer.java:160)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.close(ConsoleOutputSniffer.java:68)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.close(ProcessClosure.java:98)
+	at org.eclipse.cdt.internal.core.ProcessClosure.isAlive(ProcessClosure.java:193)
+	at org.eclipse.cdt.core.CommandLauncher.waitAndRead(CommandLauncher.java:259)
+	at org.eclipse.cdt.internal.core.BuildRunnerHelper.build(BuildRunnerHelper.java:273)
+	at org.eclipse.cdt.make.core.MakeBuilder.invokeMake(MakeBuilder.java:219)
+	at org.eclipse.cdt.make.core.MakeBuilder.build(MakeBuilder.java:108)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:58.552
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:58.555
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss ], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:58.556
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:58.558
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "freertos10_xilinx",
+"osver": "1.3",
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:58.558
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:56:58.559
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/freertos10_xilinx_bsp_1/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-03-01 09:57:20.077
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:20.078
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.655
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.656
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.782
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT1 210203862029A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.782
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.793
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT1 210203862029A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.794
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A" && level==1}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.849
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.850
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A" && level==0} -index 1], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.869
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A" && level==0} -index 1], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.881
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.904
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.904
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.905
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.906
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.912
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT1 210203862029A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.912
+!MESSAGE XSCT Command: [version -server], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.913
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.913
+!MESSAGE XSCT Command: [version], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.914
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.1
+SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.914
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.920
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT1 210203862029A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.920
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A" && level==1}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.937
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.937
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.945
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT1 210203862029A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.945
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A" && level==1}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.963
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.963
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.970
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT1 210203862029A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.970
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A" && level==1}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.988
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.988
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.994
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT1 210203862029A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:21.994
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A" && level==1}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.011
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.012
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.017
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT1 210203862029A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.018
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A" && level==1}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.034
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.035
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.040
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT1 210203862029A]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.041
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A" && level==1}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.058
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.058
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT1 210203862029A" && level == 0}], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.077
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT1 210203862029A" && level == 0}], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.078
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.079
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.079
+!MESSAGE XSCT Command: [source /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/ps7_init.tcl], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.092
+!MESSAGE XSCT command with result: [source /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/ps7_init.tcl], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.092
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A"} -index 0], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.134
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A"} -index 0], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.135
+!MESSAGE XSCT Command: [loadhw -hw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.186
+!MESSAGE XSCT command with result: [loadhw -hw /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/system_top_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, system_top_1]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.187
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.188
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.188
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A"} -index 0], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.214
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A"} -index 0], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.215
+!MESSAGE XSCT Command: [stop], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.229
+!MESSAGE XSCT command with result: [stop], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.229
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.523
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.524
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.529
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.529
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A"} -index 0], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.553
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A"} -index 0], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.553
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.573
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.573
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A"} -index 0], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.598
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A"} -index 0], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.599
+!MESSAGE XSCT Command: [dow /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/adaptation/Debug/adaptation.elf], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.898
+!MESSAGE XSCT command with result: [dow /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/adaptation/Debug/adaptation.elf], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.899
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.900
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:22.930
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A"} -index 0], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:23.025
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent JTAG-SMT1 210203862029A"} -index 0], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:23.025
+!MESSAGE XSCT Command: [con], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:57:23.031
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:58:24.587
+!MESSAGE XSCT Command: [disconnect tcfchan#3], Thread: Thread-528
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-03-01 09:58:24.612
+!MESSAGE XSCT command with result: [disconnect tcfchan#3], Result: [null, ]. Thread: Thread-528

@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="40" Path="C:/FMa/ATISE/Development/design-16b_2CLK_3SENSORS_modif/design_mars/Vdo/MarsZX3_EB1.xpr">
+<Project Version="7" Minor="40" Path="/home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="022099bc380a45348d073d3421ffb2d0"/>
@@ -101,56 +101,56 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
+        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_processing_system7_0_0/MarsZX3_processing_system7_0_0.xci">
+          <Proxy FileSetName="MarsZX3_processing_system7_0_0"/>
+        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_axi_gpio_0_0/MarsZX3_axi_gpio_0_0.xci">
           <Proxy FileSetName="MarsZX3_axi_gpio_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_DCMI_COUNTER_0_0/MarsZX3_DCMI_COUNTER_0_0.xci">
-          <Proxy FileSetName="MarsZX3_DCMI_COUNTER_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_xbar_1/MarsZX3_xbar_1.xci">
-          <Proxy FileSetName="MarsZX3_xbar_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_axi_vdma_0_1/MarsZX3_axi_vdma_0_1.xci">
-          <Proxy FileSetName="MarsZX3_axi_vdma_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_DCMI_VDMA_Bridge_0_3/MarsZX3_DCMI_VDMA_Bridge_0_3.xci">
-          <Proxy FileSetName="MarsZX3_DCMI_VDMA_Bridge_0_3"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_HDPYX_DCMI_Bridge_0_2/MarsZX3_HDPYX_DCMI_Bridge_0_2.xci">
-          <Proxy FileSetName="MarsZX3_HDPYX_DCMI_Bridge_0_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_DCMI_COUNTER_1_0/MarsZX3_DCMI_COUNTER_1_0.xci">
-          <Proxy FileSetName="MarsZX3_DCMI_COUNTER_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_HDPYX_DCMI_Bridge_0_1/MarsZX3_HDPYX_DCMI_Bridge_0_1.xci">
-          <Proxy FileSetName="MarsZX3_HDPYX_DCMI_Bridge_0_1"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_HDPYX_DCMI_Bridge_1_0/MarsZX3_HDPYX_DCMI_Bridge_1_0.xci">
           <Proxy FileSetName="MarsZX3_HDPYX_DCMI_Bridge_1_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_xbar_0/MarsZX3_xbar_0.xci">
-          <Proxy FileSetName="MarsZX3_xbar_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_HDPYX_Emulator_PLAIN_0_0/MarsZX3_HDPYX_Emulator_PLAIN_0_0.xci">
-          <Proxy FileSetName="MarsZX3_HDPYX_Emulator_PLAIN_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_DCMI_COUNTER_0_1/MarsZX3_DCMI_COUNTER_0_1.xci">
-          <Proxy FileSetName="MarsZX3_DCMI_COUNTER_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_HDPYX_Emulator_STRIP_0_0/MarsZX3_HDPYX_Emulator_STRIP_0_0.xci">
-          <Proxy FileSetName="MarsZX3_HDPYX_Emulator_STRIP_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_processing_system7_0_0/MarsZX3_processing_system7_0_0.xci">
-          <Proxy FileSetName="MarsZX3_processing_system7_0_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_DCMI_VDMA_Bridge_1_0/MarsZX3_DCMI_VDMA_Bridge_1_0.xci">
           <Proxy FileSetName="MarsZX3_DCMI_VDMA_Bridge_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_HDPYX_DCMI_Bridge_0_2/MarsZX3_HDPYX_DCMI_Bridge_0_2.xci">
+          <Proxy FileSetName="MarsZX3_HDPYX_DCMI_Bridge_0_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_DCMI_VDMA_Bridge_0_3/MarsZX3_DCMI_VDMA_Bridge_0_3.xci">
+          <Proxy FileSetName="MarsZX3_DCMI_VDMA_Bridge_0_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_xbar_1/MarsZX3_xbar_1.xci">
+          <Proxy FileSetName="MarsZX3_xbar_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_HDPYX_Emulator_0_0/MarsZX3_HDPYX_Emulator_0_0.xci">
+          <Proxy FileSetName="MarsZX3_HDPYX_Emulator_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_HDPYX_DCMI_Bridge_0_1/MarsZX3_HDPYX_DCMI_Bridge_0_1.xci">
+          <Proxy FileSetName="MarsZX3_HDPYX_DCMI_Bridge_0_1"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_DCMI_VDMA_Bridge_0_2/MarsZX3_DCMI_VDMA_Bridge_0_2.xci">
           <Proxy FileSetName="MarsZX3_DCMI_VDMA_Bridge_0_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_HDPYX_Emulator_0_0/MarsZX3_HDPYX_Emulator_0_0.xci">
-          <Proxy FileSetName="MarsZX3_HDPYX_Emulator_0_0"/>
+        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_axi_vdma_0_1/MarsZX3_axi_vdma_0_1.xci">
+          <Proxy FileSetName="MarsZX3_axi_vdma_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_DCMI_COUNTER_0_0/MarsZX3_DCMI_COUNTER_0_0.xci">
+          <Proxy FileSetName="MarsZX3_DCMI_COUNTER_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_DCMI_COUNTER_0_1/MarsZX3_DCMI_COUNTER_0_1.xci">
+          <Proxy FileSetName="MarsZX3_DCMI_COUNTER_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_DCMI_COUNTER_1_0/MarsZX3_DCMI_COUNTER_1_0.xci">
+          <Proxy FileSetName="MarsZX3_DCMI_COUNTER_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_HDPYX_Emulator_PLAIN_0_0/MarsZX3_HDPYX_Emulator_PLAIN_0_0.xci">
+          <Proxy FileSetName="MarsZX3_HDPYX_Emulator_PLAIN_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_HDPYX_Emulator_STRIP_0_0/MarsZX3_HDPYX_Emulator_STRIP_0_0.xci">
+          <Proxy FileSetName="MarsZX3_HDPYX_Emulator_STRIP_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_xbar_0/MarsZX3_xbar_0.xci">
+          <Proxy FileSetName="MarsZX3_xbar_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PPRDIR/../src/system_top_EB1.vhd">
@@ -315,11 +315,17 @@
     <Simulator Name="Questa">
       <Option Name="Description" Val="Questa Advanced Simulator"/>
     </Simulator>
+    <Simulator Name="IES">
+      <Option Name="Description" Val="Incisive Enterprise Simulator (IES)"/>
+    </Simulator>
+    <Simulator Name="Xcelium">
+      <Option Name="Description" Val="Xcelium Parallel Simulator"/>
+    </Simulator>
+    <Simulator Name="VCS">
+      <Option Name="Description" Val="Verilog Compiler Simulator (VCS)"/>
+    </Simulator>
     <Simulator Name="Riviera">
       <Option Name="Description" Val="Riviera-PRO Simulator"/>
-    </Simulator>
-    <Simulator Name="ActiveHDL">
-      <Option Name="Description" Val="Active-HDL Simulator"/>
     </Simulator>
   </Simulators>
   <Runs Version="1" Minor="10">
