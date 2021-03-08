@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="MarsEB1_synth" LaunchPart="xc7z020clg484-1" LaunchTime="1614587602">
-  <File Type="VDS-TIMINGSUMMARY" Name="system_top_timing_summary_synth.rpt"/>
-  <File Type="RDS-DCP" Name="system_top.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="system_top_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="system_top_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="system_top_drc_synth.rpt"/>
   <File Type="RDS-RDS" Name="system_top.vds"/>
   <File Type="REPORTS-TCL" Name="system_top_reports.tcl"/>
-  <File Type="VDS-TIMING-PB" Name="system_top_timing_summary_synth.pb"/>
+  <File Type="RDS-UTIL-PB" Name="system_top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="system_top.dcp"/>
   <File Type="PA-TCL" Name="system_top.tcl"/>
+  <File Type="RDS-UTIL" Name="system_top_utilization_synth.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PPRDIR/../../../RTL/DCMI_VDMA_Bridge.vhd">
@@ -88,21 +85,21 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="MarsZX3_HDPYX_Emulator_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="MarsZX3_HDPYX_Emulator_STRIP_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="MarsZX3_HDPYX_Emulator_PLAIN_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="MarsZX3_HDPYX_DCMI_Bridge_0_2"/>
-  <BlockFileSet Type="BlockSrcs" Name="MarsZX3_HDPYX_DCMI_Bridge_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="MarsZX3_HDPYX_DCMI_Bridge_1_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="MarsZX3_DCMI_COUNTER_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="MarsZX3_DCMI_COUNTER_1_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="MarsZX3_DCMI_VDMA_Bridge_0_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="MarsZX3_xbar_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="MarsZX3_HDPYX_Emulator_PLAIN_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="MarsZX3_DCMI_VDMA_Bridge_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="MarsZX3_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MarsZX3_HDPYX_DCMI_Bridge_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="MarsZX3_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MarsZX3_axi_vdma_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="MarsZX3_xbar_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="MarsZX3_HDPYX_DCMI_Bridge_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MarsZX3_DCMI_COUNTER_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MarsZX3_DCMI_VDMA_Bridge_0_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="MarsZX3_HDPYX_Emulator_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MarsZX3_HDPYX_Emulator_STRIP_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="MarsZX3_DCMI_COUNTER_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="MarsZX3_DCMI_VDMA_Bridge_0_2"/>
   <BlockFileSet Type="BlockSrcs" Name="MarsZX3_DCMI_COUNTER_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="MarsZX3_processing_system7_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="MarsZX3_DCMI_VDMA_Bridge_0_2"/>
-  <BlockFileSet Type="BlockSrcs" Name="MarsZX3_axi_vdma_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="MarsZX3_axi_gpio_0_0"/>
 </GenRun>

@@ -1,0 +1,10 @@
+vhdl xil_defaultlib  \
+"../../../bd/MarsZX3/ip/MarsZX3_axi_gpio_0_0/sim/MarsZX3_axi_gpio_0_0.vhd" \
+"../../../bd/MarsZX3/ip/MarsZX3_rst_processing_system7_0_50M_0/sim/MarsZX3_rst_processing_system7_0_50M_0.vhd" \
+"../../../bd/MarsZX3/ip/MarsZX3_HDPYX_DCMI_Bridge_0_0/sim/MarsZX3_HDPYX_DCMI_Bridge_0_0.vhd" \
+"../../../bd/MarsZX3/ip/MarsZX3_HDPYX_TPG_0_0/sim/MarsZX3_HDPYX_TPG_0_0.vhd" \
+"../../../bd/MarsZX3/ip/MarsZX3_DCMI_VDMA_Bridge_0_1/sim/MarsZX3_DCMI_VDMA_Bridge_0_1.vhd" \
+"../../../bd/MarsZX3/ip/MarsZX3_axi_vdma_0_1/sim/MarsZX3_axi_vdma_0_1.vhd" \
+"../../../bd/MarsZX3/sim/MarsZX3.vhd" \
+
+nosort

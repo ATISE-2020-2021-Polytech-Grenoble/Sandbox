@@ -1,0 +1,4 @@
+14:31:04 INFO  : Launching XSCT server: xsct -n -interactive /home/killian/Bureau/Atise/Sandbox/design-Zynq/design_mars/Vdo/MarsZX3_EB1.sdk/temp_xsdb_launch_script.tcl
+14:31:08 INFO  : XSCT server has started successfully.
+15:21:46 ERROR : (XSDB Server)Complété
+

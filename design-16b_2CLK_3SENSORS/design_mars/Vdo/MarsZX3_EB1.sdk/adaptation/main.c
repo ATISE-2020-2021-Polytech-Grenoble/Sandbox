@@ -48,7 +48,13 @@
 #include "hdpyx_spi.h"
 #include "debug_macro.h"
 
+#include "xparameters.h"
+#include "xuartps.h"
+#include "xil_printf.h"
+
 /* ==================== Constant Definitions ==================== */
+
+#define UART_DEVICE_ID                  XPAR_XUARTPS_0_DEVICE_ID
 
 #define IMG_WIDTH  2808
 #define IMG_HEIGHT 1096
@@ -191,6 +197,8 @@ u32 HDPYX_SPI_DATA[HDPYX_SPI_CONFIG_SIZE]={
 
 /* ==================== Function Prototypes ==================== */
 
+int UartPsHelloWorldExample(u16 DeviceId);
+
 static int enable_ps_interrupts(XAxiVdma* vdma, uint16_t interrupt_id);
 static void disable_ps_interrupts(uint16_t interrupt_id);
 
@@ -209,6 +217,8 @@ static int HDPYX_SETUP_TPG(void);
 u32 SPI_Ready, HDPyx_vdma_Ready;
 
 /* ==================== Global variables ==================== */
+
+XUartPs Uart_Ps;		/* The instance of the UART Driver */
 
 static XAxiVdma vdma0, vdma1, vdma2;
 static XScuGic it_ctrl;
@@ -492,6 +502,14 @@ int main(){
 		if (err != XST_SUCCESS) {
 			return err;
 		}
+
+		int Status;
+
+			/*
+			 * Run the Hello World example , specify the the Device ID that is
+			 * generated in xparameters.h
+			 */
+		Status = UartPsHelloWorldExample(UART_DEVICE_ID);
 	}
 
 	disable_ps_interrupts(XPAR_FABRIC_AXI_VDMA_0_S2MM_INTROUT_INTR);
@@ -770,4 +788,16 @@ static int HDPYX_SETUP_TPG(void)
 	return XST_SUCCESS;
 }
 
+int UartPsHelloWorldExample(u16 DeviceId)
+{
+	u8 HelloWorld[] = "Hello World";
+	int SentCount = 0;
+	int Status;
+	XUartPs_Config *Config;
 
+	/*
+	 * Initialize the UART driver so that it's ready to use
+	 * Look up the configuration in the config table and then initialize it.
+	 */
+	Config = XUartPs_LookupConfig(DeviceId);
+}

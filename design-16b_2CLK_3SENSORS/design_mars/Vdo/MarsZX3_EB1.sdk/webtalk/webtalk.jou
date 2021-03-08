@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# 
+# Start of session at: Tue Mar  2 15:06:24 2021
+# Process ID: 24871
+# Current directory: /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/webtalk/webtalk.log
+# Journal file: /home/killian/Bureau/Atise/Sandbox/design-16b_2CLK_3SENSORS/design_mars/Vdo/MarsZX3_EB1.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

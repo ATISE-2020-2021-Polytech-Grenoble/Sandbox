@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="MarsZX3_ila_0_2_synth_1" LaunchDir="C:/FMa/ATISE/Development/DCMI_TPG_8b/design_mars/Vdo/MarsZX3_EB1.runs/MarsZX3_ila_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="MarsEB1_synth" LaunchDir="C:/FMa/ATISE/Development/DCMI_TPG_8b/design_mars/Vdo/MarsZX3_EB1.runs/MarsEB1_synth" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="MarsZX3_ila_0_2_synth_1"/>
+	</Run>
+	<Run Id="MarsEB1_impl" LaunchDir="C:/FMa/ATISE/Development/DCMI_TPG_8b/design_mars/Vdo/MarsZX3_EB1.runs/MarsEB1_impl" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="MarsEB1_synth"/>
+		<Parent Id="MarsZX3_ila_0_2_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
