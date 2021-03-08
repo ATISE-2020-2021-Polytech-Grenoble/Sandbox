@@ -50,11 +50,11 @@
 
 /* ==================== Constant Definitions ==================== */
 
+// Image dimensions
 #define IMG_WIDTH  2808
 #define IMG_HEIGHT 1096
 
 // Pixel size in bytes
-//#define IMG_PIXEL_BYTES 1
 #define IMG_PIXEL_BYTES 2// FMa Modification >> 16-bit
 
 // Number of frames in circular buffer
@@ -201,9 +201,6 @@ static void vdma_err1(void *CallbackRef, u32 Mask);
 static void vdma_done2(void *CallbackRef, u32 Mask);
 static void vdma_err2(void *CallbackRef, u32 Mask);
 
-//static int setup_hdpyx_sensor(void);
-//static int start_hdpyx_sensor(void);
-
 static int HDPYX_SETUP_TPG(void);
 
 u32 SPI_Ready, HDPyx_vdma_Ready;
@@ -219,8 +216,6 @@ static volatile uint8_t img_buffer0[IMG_BUFF_SIZE] __attribute__ ((aligned(8)));
 static volatile uint8_t img_buffer1[IMG_BUFF_SIZE] __attribute__ ((aligned(8)));
 static volatile uint8_t img_buffer2[IMG_BUFF_SIZE] __attribute__ ((aligned(8)));
 
-//static uint8_t spi_buffer[SPI_BUFFER_SIZE];
-
 static volatile u8 write_done0 = 0, write_done1 = 0, write_done2 = 0;
 static volatile u8 write_err0  = 0, write_err1  = 0, write_err2  = 0;
 
@@ -228,16 +223,17 @@ static uint8_t spi_buffer[SPI_BUFFER_SIZE];
 
 /* ==================== Main ==================== */
 
+// The topic of this code is to transfer images from an embedded card
+// to an SD card through thanks to VDMA
+
 int main(){
 	// ----- Setup -----
 	int err;
 	int status;
 
-//memset((uint8_t*)img_buffer, 255, IMG_BUFF_SIZE);
-//	memset((uint16_t*)img_buffer, 16383, IMG_BUFF_SIZE); // FMa Modification >> 16-bit
-
 	err = init_sd();
 	if (err != XST_SUCCESS) {
+		// Output from every xil_printf() call are written on the Serial Monitor
 		xil_printf("[ERROR] SD setup failed : %i\r\n", err);
 		return XST_FAILURE;
 	}
@@ -248,27 +244,8 @@ int main(){
 		xil_printf("[ERROR] GPIO0 setup failed : %i\r\n", err);
 		return XST_FAILURE;
 	}
-	/*err = XGpio_Initialize(&gpio1, XPAR_GPIO_1_DEVICE_ID); // TPG Start Signal
-	if (err != XST_SUCCESS) {
-		xil_printf("[ERROR] GPIO0 setup failed : %i\r\n", err);
-		return XST_FAILURE;
-	}
-	err = XGpio_Initialize(&gpio3, XPAR_GPIO_3_DEVICE_ID); // Trig ready = GPIO3[0] & Spi_busy = GPIO3[1]
-		if (err != XST_SUCCESS) {
-			xil_printf("[ERROR] GPIO3 setup failed : %i\r\n", err);
-			return XST_FAILURE;
-		}
-	err = XGpio_Initialize(&gpio4, XPAR_GPIO_4_DEVICE_ID); //
-		if (err != XST_SUCCESS) {
-			xil_printf("[ERROR] GPIO3 setup failed : %i\r\n", err);
-			return XST_FAILURE;
-		}
-*/
 	// Set GPIO as output
 	XGpio_SetDataDirection(&gpio0, 1, ~1); // Start TPG
-	//XGpio_SetDataDirection(&gpio1, 1, ~1); // SW_EN
-	//XGpio_SetDataDirection(&gpio3, 1, ~0); // HDPyx_SPI_BUSY
-	//XGpio_SetDataDirection(&gpio4, 1, ~0); // HDPyx_vdma_ready
 
 	// Initialize SPI
 		status = HDPYX_SPI_Init(&spi, XPAR_XSPIPS_0_DEVICE_ID);
@@ -294,22 +271,6 @@ int main(){
 	    HDPYX_SPI_Write(&spi, RD, 0x3018 , 0); // Read Global Sensor State Status Register
 
 
-
-	// SW_EN
-	/*XGpio_DiscreteWrite(&gpio1, 1, 1);
-	usleep(100);
-	XGpio_DiscreteWrite(&gpio1, 1, 3);
-	usleep(100);
-	XGpio_DiscreteWrite(&gpio1, 1, 7);
-	usleep(100);
-	 */
-	//SPI_Ready = XGpio_DiscreteRead(&gpio3, 1);
-	//while(!SPI_Ready){SPI_Ready = XGpio_DiscreteRead(&gpio3, 1);}
-
-	// Initialize the SPI driver and the HDPyx sensor
-	//err = setup_hdpyx_sensor();
-
-
 	if (err != XST_SUCCESS) {
 		xil_printf("[ERROR] HDPYX setup failed : %i\r\n", err);
 		return XST_FAILURE;
@@ -318,7 +279,8 @@ int main(){
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////
 	// VDMA INITIALIZATION ///////////////////////////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////
-	//VDMA init
+	// 3 images will be transfered
+	// VDMA init
 	err = setup_vdma(&vdma0, (uintptr_t)img_buffer0, IMG_WIDTH, IMG_HEIGHT, XPAR_AXIVDMA_0_DEVICE_ID);
 	if (err != XST_SUCCESS) {
 		xil_printf("[ERROR] VDMA setup failed : %i\r\n", err);
@@ -334,7 +296,7 @@ int main(){
 		return XST_FAILURE;
 	}
 
-	//VDMA1 init
+	// VDMA1 init
 	err = setup_vdma(&vdma1, (uintptr_t)img_buffer1, IMG_WIDTH, IMG_HEIGHT, XPAR_AXIVDMA_1_DEVICE_ID);
 	if (err != XST_SUCCESS) {
 		xil_printf("[ERROR] VDMA1 setup failed : %i\r\n", err);
@@ -350,7 +312,7 @@ int main(){
 		return XST_FAILURE;
 	}
 
-	//VDMA2 init
+	// VDMA2 init
 	err = setup_vdma(&vdma2, (uintptr_t)img_buffer2, IMG_WIDTH, IMG_HEIGHT, XPAR_AXIVDMA_2_DEVICE_ID);
 	if (err != XST_SUCCESS) {
 		xil_printf("[ERROR] VDMA1 setup failed : %i\r\n", err);
@@ -396,20 +358,10 @@ int main(){
 			xil_printf("[ERROR] Could not start VDMA1 : %i\r\n", err);
 			return XST_FAILURE;
 		}
-		// Get image from sensor
-		//start_hdpyx_sensor();
 
-		//SPI_Ready = XGpio_DiscreteRead(&gpio3, 1);
-		//while(!SPI_Ready){SPI_Ready = XGpio_DiscreteRead(&gpio3, 1);}
-
-		//HDPyx_vdma_Ready = XGpio_DiscreteRead(&gpio4, 1);
-		//while(!HDPyx_vdma_Ready){HDPyx_vdma_Ready = XGpio_DiscreteRead(&gpio4, 1);}
 		HDPYX_SPI_Write(&spi, OP, HDPYX_GOTO_RUN , 0);
 
-		//HDPYX_SPI_Write(&spi, OP, HDPYX_GOTO_TRIG_ACQ , 0);
 		HDPYX_SPI_Write(&spi, RD, 0x3018 , 0); // Read Global Sensor State Status Register
-
-		 //HDPYX_SPI_Write(&spi, OP, HDPYX_GOTO_IDLE , 0);
 
 		// TPG start
 		XGpio_DiscreteWrite(&gpio0, 1, 1);
@@ -437,7 +389,7 @@ int main(){
 
 		char name[20];
 
-
+	// Backup of the 3 images on the SD card
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	// SAVE #0 //////////////////////////////////////////////////////////////////////////////////////////////////////
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -620,139 +572,6 @@ static void vdma_err2(void* callback_ref, u32 it_mask) {
 	write_err2 = 1;
 }
 
-/*
- * Sets the hdpyx sensor in trigger mode.
- *
- * @return	XST_SUCCESS if successful, otherwise XST_FAILURE.
- */
-/*static int start_hdpyx_sensor(void)
-{
-	return hdpyx_spi_operation(&spi, HDPYX_CMD_GOTO_TRIG_ACQ, NULL, 0);
-}
-
-*/
-
-
-/*
- * Initializes the SPI driver and the HDPyx sensor
- *
- * @return	XST_SUCCESS if successful, otherwise XST_FAILURE.
- */
-/*static int setup_hdpyx_sensor(void)
-{
-	int status;
-
-	// Initialize SPI
-	status = HDPYX_SPI_Init(&spi, XPAR_XSPIPS_0_DEVICE_ID);
-    if (status != XST_SUCCESS) {
-    	DEBUG(__FILE__, __LINE__, "Error while initiating hdpyx spi");
-    	return status;
-    }
-
-	// Write the sensor configuration in its registers
-    // HDPYX_SYS_CONFIG
-	spi_buffer[0] = HDPYX_SYS_CONFIG_DATA;
-
-	status = hdpyx_spi_write_address(&spi, HDPYX_SYS_CONFIG_ADDR, spi_buffer, 1);
-	if (status != XST_SUCCESS) {
-		DEBUG(__FILE__, __LINE__, "Error while setting HDPYX_SYS_CONFIG");
-		return status;
-	}
-
-	for (int i = 0; i < 1 << 21; i++);
-	// HDPYX_PLL1_CTRL
-	spi_buffer[0] = (HDPYX_PLL1_CTRL_DATA & 0x00FF) >> 0;
-	spi_buffer[1] = (HDPYX_PLL1_CTRL_DATA & 0xFF00) >> 8;
-
-	status = hdpyx_spi_write_address(&spi, HDPYX_PLL1_CTRL_ADDR, spi_buffer, 2);
-	if (status != XST_SUCCESS) {
-		DEBUG(__FILE__, __LINE__, "Error while setting HDPYX_PLL1_CTRL");
-		return status;
-	}
-
-	for (int i = 0; i < 1 << 21; i++);
-	// HDPYX_PLL1_ENA
-	spi_buffer[0] = HDPYX_PLL1_ENA_DATA;
-
-	status = hdpyx_spi_write_address(&spi, HDPYX_PLL1_ENA_ADDR,	spi_buffer,	1);
-	if (status != XST_SUCCESS) {
-		DEBUG(__FILE__, __LINE__, "Error while setting HDPYX_PLL1_ENA");
-		return status;
-	}
-
-	for (int i = 0; i < 1 << 21; i++);
-	// HDPYX_SYS_CLOCK_SOURCE_SEL
-	spi_buffer[0] = (HDPYX_SYS_CLOCK_SOURCE_SEL_DATA & 0x00FF) >> 0;
-	spi_buffer[1] = (HDPYX_SYS_CLOCK_SOURCE_SEL_DATA & 0xFF00) >> 8;
-
-	status = hdpyx_spi_write_address(&spi, HDPYX_SYS_CLOCK_SOURCE_SEL_ADDR,	spi_buffer,	2);
-	if (status != XST_SUCCESS) {
-		DEBUG(__FILE__, __LINE__, "Error while setting HDPYX_SYS_CLOCK_SOURCE_SEL");
-		return status;
-	}
-
-	for (int i = 0; i < 1 << 21; i++);
-	// HDPYX_SYS_CLOCK_SWITCH_ENA
-	spi_buffer[0] = HDPYX_SYS_CLOCK_SWITCH_ENA_DATA;
-
-	status = hdpyx_spi_write_address(&spi, HDPYX_SYS_CLOCK_SWITCH_ENA_ADDR,	spi_buffer,	1);
-	if (status != XST_SUCCESS) {
-		DEBUG(__FILE__, __LINE__, "Error while setting HDPYX_SYS_CLOCK_SWITCH_ENA");
-		return status;
-	}
-
-	for (int i = 0; i < 1 << 21; i++);
-	// HDPYX_SYS_CTRL_CLOCK_DIV
-	spi_buffer[0] = HDPYX_SYS_CTRL_CLOCK_DIV_DATA;
-
-	status = hdpyx_spi_write_address(&spi, HDPYX_SYS_CTRL_CLOCK_DIV_ADDR, spi_buffer, 1);
-	if (status != XST_SUCCESS) {
-		DEBUG(__FILE__, __LINE__, "Error while setting HDPYX_SYS_CTRL_CLOCK_DIV");
-		return status;
-	}
-
-	for (int i = 0; i < 1 << 21; i++);
-	// HDPYX_SYS_PROC_CLOCK_DIV
-	spi_buffer[0] = HDPYX_SYS_PROC_CLOCK_DIV_DATA;
-
-	status = hdpyx_spi_write_address(&spi, HDPYX_SYS_PROC_CLOCK_DIV_ADDR, spi_buffer, 1);
-	if (status != XST_SUCCESS) {
-		DEBUG(__FILE__, __LINE__, "Error while setting HDPYX_SYS_PROC_CLOCK_DIV");
-		return status;
-	}
-
-	for (int i = 0; i < 1 << 21; i++);
-	// HDPYX_PRG_MISC_CFG
-	spi_buffer[0] = HDPYX_PRG_MISC_CFG_DATA;
-
-	status = hdpyx_spi_write_address(&spi, HDPYX_PRG_MISC_CFG_ADDR, spi_buffer,	1);
-	if (status != XST_SUCCESS) {
-		DEBUG(__FILE__, __LINE__, "Error while setting HDPYX_PRG_MISC_CFG");
-		return status;
-	}
-
-	for (int i = 0; i < 1 << 21; i++);
-	// HDPYX_IOC_LVDS_CFG
-	spi_buffer[0] = HDPYX_IOC_LVDS_CFG_DATA;
-
-	status = hdpyx_spi_write_address(&spi, HDPYX_IOC_LVDS_CFG_ADDR,	spi_buffer,	1);
-	if (status != XST_SUCCESS) {
-		DEBUG(__FILE__, __LINE__, "Error while setting HDPYX_IOC_LVDS_CFG");
-		return status;
-	}
-
-	for (int i = 0; i < 1 << 21; i++);
-    // Set the sensor into IDLE mode
-    status = hdpyx_spi_operation(&spi, HDPYX_CMD_GOTO_IDLE, NULL, 0);
-    if (status != XST_SUCCESS) {
-        DEBUG(__FILE__, __LINE__, "Error setting sensor in IDLE state");
-    }
-
-	return XST_SUCCESS;
-}*/
-
-
-
 static int HDPYX_SETUP_TPG(void)
 {
 	int status;
@@ -769,5 +588,3 @@ static int HDPYX_SETUP_TPG(void)
 
 	return XST_SUCCESS;
 }
-
-
