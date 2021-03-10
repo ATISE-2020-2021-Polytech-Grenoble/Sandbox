@@ -1,75 +1,8 @@
-13:59:50 **** Auto Build of configuration Debug for project adaptation ****
+15:20:11 **** Incremental Build of configuration Debug for project adaptation ****
 make pre-build main-build 
 a9-linaro-pre-build-step
  
-Building file: ../atise_img.c
-Invoking: ARM v7 gcc compiler
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"atise_img.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freertos10_xilinx_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"atise_img.d" -MT"atise_img.o" -o "atise_img.o" "../atise_img.c"
-Finished building: ../atise_img.c
- 
-Building file: ../atise_vdma.c
-Invoking: ARM v7 gcc compiler
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"atise_vdma.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freertos10_xilinx_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"atise_vdma.d" -MT"atise_vdma.o" -o "atise_vdma.o" "../atise_vdma.c"
-Finished building: ../atise_vdma.c
- 
-Building file: ../hdpyx_spi.c
-Invoking: ARM v7 gcc compiler
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"hdpyx_spi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freertos10_xilinx_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"hdpyx_spi.d" -MT"hdpyx_spi.o" -o "hdpyx_spi.o" "../hdpyx_spi.c"
-Finished building: ../hdpyx_spi.c
- 
-Building file: ../main.c
-Invoking: ARM v7 gcc compiler
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../freertos10_xilinx_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
-../main.c: In function 'main':
-../main.c:506:7: warning: variable 'Status' set but not used [-Wunused-but-set-variable]
-   int Status;
-       ^~~~~~
-../main.c: In function 'UartPsHelloWorldExample':
-../main.c:796:18: warning: variable 'Config' set but not used [-Wunused-but-set-variable]
-  XUartPs_Config *Config;
-                  ^~~~~~
-../main.c:795:6: warning: unused variable 'Status' [-Wunused-variable]
-  int Status;
-      ^~~~~~
-../main.c:794:6: warning: unused variable 'SentCount' [-Wunused-variable]
-  int SentCount = 0;
-      ^~~~~~~~~
-../main.c:793:5: warning: unused variable 'HelloWorld' [-Wunused-variable]
-  u8 HelloWorld[] = "Hello World";
-     ^~~~~~~~~~
-../main.c:803:1: warning: control reaches end of non-void function [-Wreturn-type]
- }
- ^
-At top level:
-../main.c:237:16: warning: 'spi_buffer' defined but not used [-Wunused-variable]
- static uint8_t spi_buffer[SPI_BUFFER_SIZE];
-                ^~~~~~~~~~
-../main.c:225:35: warning: 'gpio4' defined but not used [-Wunused-variable]
- static XGpio gpio0, gpio1, gpio3, gpio4;
-                                   ^~~~~
-../main.c:225:28: warning: 'gpio3' defined but not used [-Wunused-variable]
- static XGpio gpio0, gpio1, gpio3, gpio4;
-                            ^~~~~
-../main.c:225:21: warning: 'gpio1' defined but not used [-Wunused-variable]
- static XGpio gpio0, gpio1, gpio3, gpio4;
-                     ^~~~~
-../main.c: In function 'HDPYX_SETUP_TPG':
-../main.c:783:8: warning: 'status' may be used uninitialized in this function [-Wmaybe-uninitialized]
-     if (status != XST_SUCCESS) {
-        ^
-Finished building: ../main.c
- 
-Building target: adaptation.elf
-Invoking: ARM v7 gcc linker
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../freertos10_xilinx_bsp_0/ps7_cortexa9_0/lib -o "adaptation.elf"  ./atise_img.o ./atise_vdma.o ./hdpyx_spi.o ./main.o   -Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
-Finished building target: adaptation.elf
- 
-Invoking: ARM v7 Print Size
-arm-none-eabi-size adaptation.elf  |tee "adaptation.elf.size"
-   text	   data	    bss	    dec	    hex	filename
- 125416	   4100	92425664	92555180	58447ac	adaptation.elf
-Finished building: adaptation.elf.size
- 
+make: rien à faire pour « main-build ».
 
-13:59:51 Build Finished (took 1s.272ms)
+15:20:12 Build Finished (took 561ms)
 

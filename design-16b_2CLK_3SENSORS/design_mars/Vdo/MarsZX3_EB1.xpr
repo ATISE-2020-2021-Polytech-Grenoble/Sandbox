@@ -101,21 +101,6 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_DCMI_COUNTER_1_0/MarsZX3_DCMI_COUNTER_1_0.xci">
-          <Proxy FileSetName="MarsZX3_DCMI_COUNTER_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_DCMI_COUNTER_0_1/MarsZX3_DCMI_COUNTER_0_1.xci">
-          <Proxy FileSetName="MarsZX3_DCMI_COUNTER_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_DCMI_COUNTER_0_0/MarsZX3_DCMI_COUNTER_0_0.xci">
-          <Proxy FileSetName="MarsZX3_DCMI_COUNTER_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_DCMI_VDMA_Bridge_1_0/MarsZX3_DCMI_VDMA_Bridge_1_0.xci">
-          <Proxy FileSetName="MarsZX3_DCMI_VDMA_Bridge_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_HDPYX_DCMI_Bridge_1_0/MarsZX3_HDPYX_DCMI_Bridge_1_0.xci">
-          <Proxy FileSetName="MarsZX3_HDPYX_DCMI_Bridge_1_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_axi_gpio_0_0/MarsZX3_axi_gpio_0_0.xci">
           <Proxy FileSetName="MarsZX3_axi_gpio_0_0"/>
         </CompFileExtendedInfo>
@@ -131,20 +116,35 @@
         <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_DCMI_VDMA_Bridge_0_2/MarsZX3_DCMI_VDMA_Bridge_0_2.xci">
           <Proxy FileSetName="MarsZX3_DCMI_VDMA_Bridge_0_2"/>
         </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_DCMI_COUNTER_0_0/MarsZX3_DCMI_COUNTER_0_0.xci">
+          <Proxy FileSetName="MarsZX3_DCMI_COUNTER_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_DCMI_COUNTER_0_1/MarsZX3_DCMI_COUNTER_0_1.xci">
+          <Proxy FileSetName="MarsZX3_DCMI_COUNTER_0_1"/>
+        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_HDPYX_DCMI_Bridge_0_1/MarsZX3_HDPYX_DCMI_Bridge_0_1.xci">
           <Proxy FileSetName="MarsZX3_HDPYX_DCMI_Bridge_0_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_HDPYX_Emulator_0_0/MarsZX3_HDPYX_Emulator_0_0.xci">
-          <Proxy FileSetName="MarsZX3_HDPYX_Emulator_0_0"/>
+        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_DCMI_VDMA_Bridge_1_0/MarsZX3_DCMI_VDMA_Bridge_1_0.xci">
+          <Proxy FileSetName="MarsZX3_DCMI_VDMA_Bridge_1_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_xbar_1/MarsZX3_xbar_1.xci">
-          <Proxy FileSetName="MarsZX3_xbar_1"/>
+        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_HDPYX_DCMI_Bridge_1_0/MarsZX3_HDPYX_DCMI_Bridge_1_0.xci">
+          <Proxy FileSetName="MarsZX3_HDPYX_DCMI_Bridge_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_HDPYX_DCMI_Bridge_0_2/MarsZX3_HDPYX_DCMI_Bridge_0_2.xci">
+          <Proxy FileSetName="MarsZX3_HDPYX_DCMI_Bridge_0_2"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_DCMI_VDMA_Bridge_0_3/MarsZX3_DCMI_VDMA_Bridge_0_3.xci">
           <Proxy FileSetName="MarsZX3_DCMI_VDMA_Bridge_0_3"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_HDPYX_DCMI_Bridge_0_2/MarsZX3_HDPYX_DCMI_Bridge_0_2.xci">
-          <Proxy FileSetName="MarsZX3_HDPYX_DCMI_Bridge_0_2"/>
+        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_xbar_1/MarsZX3_xbar_1.xci">
+          <Proxy FileSetName="MarsZX3_xbar_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_HDPYX_Emulator_0_0/MarsZX3_HDPYX_Emulator_0_0.xci">
+          <Proxy FileSetName="MarsZX3_HDPYX_Emulator_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_DCMI_COUNTER_1_0/MarsZX3_DCMI_COUNTER_1_0.xci">
+          <Proxy FileSetName="MarsZX3_DCMI_COUNTER_1_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="MarsZX3.bd" FileRelPathName="ip/MarsZX3_HDPYX_Emulator_PLAIN_0_0/MarsZX3_HDPYX_Emulator_PLAIN_0_0.xci">
           <Proxy FileSetName="MarsZX3_HDPYX_Emulator_PLAIN_0_0"/>

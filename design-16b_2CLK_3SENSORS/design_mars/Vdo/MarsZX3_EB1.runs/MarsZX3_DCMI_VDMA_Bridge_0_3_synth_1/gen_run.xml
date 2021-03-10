@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="MarsZX3_DCMI_VDMA_Bridge_0_3_synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1604420572">
   <File Type="RDS-DCP" Name="MarsZX3_DCMI_VDMA_Bridge_0_3.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="MarsZX3_DCMI_VDMA_Bridge_0_3_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="MarsZX3_DCMI_VDMA_Bridge_0_3_utilization_synth.rpt"/>
-  <File Type="PA-TCL" Name="MarsZX3_DCMI_VDMA_Bridge_0_3.tcl"/>
   <File Type="RDS-RDS" Name="MarsZX3_DCMI_VDMA_Bridge_0_3.vds"/>
+  <File Type="PA-TCL" Name="MarsZX3_DCMI_VDMA_Bridge_0_3.tcl"/>
+  <File Type="RDS-UTIL" Name="MarsZX3_DCMI_VDMA_Bridge_0_3_utilization_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="MarsZX3_DCMI_VDMA_Bridge_0_3_reports.tcl"/>
+  <File Type="RDS-UTIL-PB" Name="MarsZX3_DCMI_VDMA_Bridge_0_3_utilization_synth.pb"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/MarsZX3_DCMI_VDMA_Bridge_0_3">
     <File Path="$PSRCDIR/sources_1/bd/MarsZX3/ip/MarsZX3_DCMI_VDMA_Bridge_0_3/MarsZX3_DCMI_VDMA_Bridge_0_3.xci">
       <FileInfo>
